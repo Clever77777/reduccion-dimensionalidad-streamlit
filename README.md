@@ -14,15 +14,15 @@ Dataset: 41 188 clientes, 10 variables numéricas estandarizadas. Variable objet
 
 **PCA.** Con el criterio de Kaiser (autovalor > 1) se conservan 4 componentes, que explican el 73.8 % de la varianza. Para pasar el 80 % se necesitan 5 componentes. PC1 (39 %) agrupa las variables macroeconómicas: euribor3m, emp.var.rate y nr.employed.
 
-![PCA](img/pca_varianza.png)
+![PCA](pca_varianza.png)
 
 **LDA.** Como la clasificación es binaria, LDA genera una sola dimensión (C − 1 = 1). Ese eje separa bien las clases: el promedio de LD_1 es −0.25 para "no" y 1.94 para "yes".
 
-![LDA](img/lda_ld1.png)
+![LDA](lda_ld1.png)
 
 **SelectKBest.** Con k = 3 se eligen duration, nr.employed y pdays.
 
-![ANOVA](img/anova_f.png)
+![ANOVA](/anova_f.png)
 
 ### Comparación con una Regresión Logística
 
