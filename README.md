@@ -63,7 +63,7 @@ Validación cruzada estratificada de 5 folds, con `class_weight="balanced"`. La 
 ## Cómo ejecutarlo
 
 ```bash
-git clone https://github.com/TU_USUARIO/reduccion-dimensionalidad-streamlit.git
+git clone https://github.com/Clever/reduccion-dimensionalidad-streamlit.git
 cd reduccion-dimensionalidad-streamlit
 pip install -r requirements.txt
 streamlit run app.py
@@ -91,4 +91,4 @@ Moro, S., Cortez, P., & Rita, P. (2014). *A data-driven approach to predict the 
 
 ## Autor
 
-[Tu nombre] — Curso de Modelamiento Predictivo / Analítica de Datos
+[Clever Ken Cristobal Chavez] — Curso de Modelamiento Predictivo / Analítica de Datos
